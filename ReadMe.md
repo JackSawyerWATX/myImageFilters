@@ -1,0 +1,1 @@
+This is a page for photo filters using JavaScript functions to iterate throught the pixels of the photo to manipulate a product. 

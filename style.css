@@ -1,0 +1,24 @@
+h1 {
+    font-family: "Courier New", monospace;
+  }
+  
+  canvas {
+    height: 250px;
+    border: 2px solid #b22222;
+    background-color: #fdf5e6;
+  }
+  
+  body {
+    margin: 30px;
+    background-color: #e0ffff;
+    font-family: "Courier New", monospace;
+  }
+  
+  input[type="button"] {
+    font-family: "Courier New", monospace;
+  }
+  
+  input[type="file"] {
+    font-family: "Courier New", monospace;
+  }
+  

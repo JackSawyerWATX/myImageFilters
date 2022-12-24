@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Filters</title>
+    <script src='https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js'></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <h1>MiniProject Part 1 & 2</h1>
+
+    <canvas id="canvas1"></canvas>
+    <canvas id="canvas2"></canvas>
+
+    <p>
+        Load Image: <input type="file" id="loadImg" multiple="false" accept="images/*" onchange="loadImage()">
+        Reset Image: <input type="button" value="Reset" id="resetImage" onclick="resetImage()">
+        Clear Canvas: <input type="button" value="Clear" id="doClear" onclick="doClear()">
+    </p>
+
+    <p>
+        <input type="button" id="gray" value="GrayScale" onclick="makeGray()">
+        <input type="button" id="red" value="Red Image" onclick="redImage()">
+        <input type="button" id="red" value="Green Image" onclick="greenImage()">
+        <input type="button" id="red" value="Blue Image" onclick="blueImage()">
+        <input type="button" id="frame" value="Frame Image" onclick="frameImage()">
+        <input type="button" value="Rainbow Filter" id="rainbow" onclick="rainbowFilter()" />
+    </p>
+</body>
+
+</html>
